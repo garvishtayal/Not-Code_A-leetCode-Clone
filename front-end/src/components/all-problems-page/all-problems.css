@@ -1,0 +1,80 @@
+p {
+  margin: 0;
+}
+.problem-container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.table {
+  font-size: 18px;
+  margin-top: 100px;
+}
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left; 
+}
+
+.table-content:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+.table-content {
+
+  color: rgb(51, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.problem-logo-image {
+  height: 55px;
+  width: 148px;
+  margin-left: 20px;
+}
+.current-title {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.problem-title {
+  margin-right: 20px;
+}
+.problem-title, .submission-title {
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.problem-title:hover, .submission-title:hover {
+  text-decoration: underline;
+}
+.problem-title:active, .submission-title:active {
+  color: gray;
+}
+.problem-buttons {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.problem-button {
+  width: 60px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  padding: 1px;
+}
+.problem-button:hover {
+  cursor: pointer;
+}
+.problem-button:focus {
+  background-color: white;
+  color: black;
+}
